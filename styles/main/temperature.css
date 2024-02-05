@@ -1,0 +1,42 @@
+.main__temperature {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+}
+
+.temperature__name {
+    margin: 0px auto 5px auto;
+    text-align: center;
+    font-family: GOST Type A;
+    font-size: 30px;
+    background-color: rgb(3, 8, 3);
+    color: white;
+    border-radius: 10px;
+}
+
+.progress__bar_temperature {
+    margin: 2px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(hotpink 15%, pink 0);    
+    
+}
+  
+.progress__value_temperature {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+  
+.progress__bar_temperature::before {
+    content: "15°C";
+    position: relative;
+    font-family: GOST Type A;
+    font-size: 25px;
+    left: 34px;
+    top: 35px;
+}

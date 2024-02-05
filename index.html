@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Умный дом</title>
+    <link rel="stylesheet" href="./styles/styles.css" >
+</head>
+<body>
+    <header>
+        <div class="header__container">
+            <h1 class="header__h1" >Умный дом</h1>
+        </div>
+    </header>
+    <main>
+        <section class="main__container">
+            <div class="main__humidity">
+                <p class="humidity__name">Влажность</p>
+                <div class="progress__bar_humidity">
+                    <progress value="75" min="0" max="100" class="progress__value_humidity">75%</progress>
+                </div>
+            </div>
+            <div class="main__temperature">
+                <p class="temperature__name">Температура</p>
+                <div class="progress__bar_temperature">
+                    <progress value="75" min="0" max="50" class="progress__value_temperature">15°C</progress>
+                </div>
+            </div>
+            <div class="main__door" for="toggle">
+                <p class="door__name">Дверь</p>
+                <label class="switch__door">
+                    <input type="checkbox" class="input__door">
+                    <span class="span__door_close"></span>
+                </label>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
