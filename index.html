@@ -8,25 +8,25 @@
 </head>
 <body>
     <header>
-        <div class="header__container">
-            <h1 class="header__h1" >Умный дом</h1>
+        <div class="header__container"> <!--Контейнер для заголовка-->
+            <h1 class="header__h1" >Умный дом</h1> <!--Заголовок-->
         </div>
     </header>
     <main>
-        <section class="main__container">
-            <div class="main__humidity">
+        <section class="main__container"> <!--Общий контейнер для данных-->
+            <div class="main__humidity"> <!--Контейнер для влажности-->
                 <p class="humidity__name">Влажность</p>
                 <div class="progress__bar_humidity">
-                    <progress value="75" min="0" max="100" class="progress__value_humidity">75%</progress>
+                    <progress value="75" min="0" max="100" class="progress__value_humidity">75%</progress>  <!--состояние влажности-->
                 </div>
             </div>
-            <div class="main__temperature">
+            <div class="main__temperature"> <!--Контейнер для температуры-->
                 <p class="temperature__name">Температура</p>
                 <div class="progress__bar_temperature">
-                    <progress value="75" min="0" max="50" class="progress__value_temperature">15°C</progress>
+                    <progress value="75" min="0" max="50" class="progress__value_temperature">15°C</progress> <!--состояние температуры-->
                 </div>
             </div>
-            <div class="main__door" for="toggle">
+            <div class="main__door" for="toggle"> <!--Контейнер для двери-->
                 <p class="door__name">Дверь</p>
                 <label class="switch__door">
                     <input type="checkbox" class="input__door">
